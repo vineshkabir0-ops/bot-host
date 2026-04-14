@@ -30,7 +30,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "I'am Bot Hosting File Host"
+    return "I'am Marco File Host"
 
 def run_flask():
     port = int(os.environ.get("PORT", 8080))
@@ -48,7 +48,7 @@ TOKEN = '8681485135:AAGAGoBXTgmGBldWRcyITr55YyMBSGqSSWk'
 OWNER_ID = 5885830322
 ADMIN_ID = 5885830322
 YOUR_USERNAME = '@TALKwithatoxicBOT'
-UPDATE_CHANNEL = '@botadminshere'
+UPDATE_CHANNEL = '@Toxicadminn'
 
 # Folder setup - using absolute paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -880,7 +880,7 @@ def remove_admin_db(admin_id):
 def create_main_menu_inline(user_id):
     markup = types.InlineKeyboardMarkup(row_width=2)
     buttons = [
-        types.InlineKeyboardButton('📢 Updates Channel', url=UPDATE_CHANNEL),
+        types.InlineKeyboardButton('📢 Updates Channel', url=https://t.me/Toxicadminn),
         types.InlineKeyboardButton('📤 Upload File', callback_data='upload'),
         types.InlineKeyboardButton('📂 Check Files', callback_data='check_files'),
         types.InlineKeyboardButton('⚡ Bot Speed', callback_data='speed'),
